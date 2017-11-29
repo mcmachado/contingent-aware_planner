@@ -100,6 +100,8 @@ int main(int argc, char** argv) {
         // Keeping track of the evolving length
         len_contingent_bytes.push_back(contingent_bytes.size());
         len_changing_bytes.push_back(changing_bytes.size());
+
+        difference_rams.clear();
     }
 
     std::cout << "contingent_bytes = [";
